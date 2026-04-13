@@ -69,9 +69,8 @@ khushbu-constructions/
 
 ### Prerequisites
 - Node.js 18+
-- MongoDB Atlas account (free tier works)
-- Cloudinary account (free tier works)
-
+- MongoDB Atlas account 
+- Cloudinary account
 ---
 
 ## ⚙️ Backend Setup
@@ -80,27 +79,7 @@ khushbu-constructions/
 ```bash
 cd backend
 npm install
-```
 
-### 2. Configure environment
-```bash
-cp .env.example .env
-```
-
-Edit `.env` with your values:
-```env
-PORT=5000
-MONGO_URI=mongodb+srv://user:password@cluster.mongodb.net/khushbu-constructions
-JWT_ACCESS_SECRET=your_min_32_char_secret_here_abc123
-JWT_REFRESH_SECRET=another_min_32_char_secret_xyz789
-JWT_ACCESS_EXPIRES=15m
-JWT_REFRESH_EXPIRES=7d
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=123456789012345
-CLOUDINARY_API_SECRET=your_cloudinary_secret
-CLIENT_URL=http://localhost:5173
-NODE_ENV=development
-ADMIN_SECRET_KEY=your_custom_admin_registration_key
 ```
 
 ### 3. Start the backend
@@ -134,18 +113,6 @@ cd frontend
 npm install
 ```
 
-### 2. Configure environment
-```bash
-cp .env.example .env
-```
-
-Edit `.env`:
-```env
-VITE_API_URL=http://localhost:5000/api
-VITE_WHATSAPP_NUMBER=919876543210
-VITE_COMPANY_PHONE=+919876543210
-```
-
 ### 3. Start frontend
 ```bash
 npm run dev     # Development
@@ -154,33 +121,6 @@ npm run build   # Production build
 
 Frontend runs at: `http://localhost:5173`
 
----
-
-## 🌐 Deployment
-
-### Backend → Render
-
-1. Push your code to GitHub
-2. Go to [render.com](https://render.com) → New Web Service
-3. Connect your GitHub repo → select the `backend/` directory
-4. Set **Build Command**: `npm install`
-5. Set **Start Command**: `npm start`
-6. Add all environment variables from `.env.example` in the Render dashboard
-7. Deploy!
-
-Your backend URL will be: `https://khushbu-constructions-api.onrender.com`
-
-### Frontend → Vercel
-
-1. Go to [vercel.com](https://vercel.com) → New Project
-2. Import your GitHub repo
-3. Set **Root Directory**: `frontend`
-4. Set **Build Command**: `npm run build`
-5. Set **Output Directory**: `dist`
-6. Add environment variables:
-   ```
-   VITE_API_URL=https://your-render-url.onrender.com/api
-   VITE_WHATSAPP_NUMBER=919876543210
    ```
 7. Deploy!
 
@@ -291,4 +231,4 @@ Your backend URL will be: `https://khushbu-constructions-api.onrender.com`
 
 ---
 
-*Built for Khushbu Constructions Pvt. Ltd. — © 2024*
+*Built for Khushbu Constructions Pvt. Ltd. — © 2026*
