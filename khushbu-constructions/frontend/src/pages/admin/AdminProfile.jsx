@@ -195,7 +195,7 @@ export default function AdminProfile() {
                 label="Company Name"
                 value={info.companyName}
                 onChange={v => setInfo(i => ({ ...i, companyName: v }))}
-                placeholder="Khushbu Constructions Pvt. Ltd."
+                placeholder="Singh Constructions ."
               />
               <Field
                 label="Tagline"

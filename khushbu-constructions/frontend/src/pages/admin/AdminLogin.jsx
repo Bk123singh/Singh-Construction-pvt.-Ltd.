@@ -49,7 +49,7 @@ export default function AdminLogin() {
               <FaHardHat size={28} className="text-white" />
             </motion.div>
             <h1 className="font-bold text-ink-900 text-2xl mb-1">Admin Panel</h1>
-            <p className="text-ink-500 text-sm">Khushbu Constructions Pvt. Ltd.</p>
+            <p className="text-ink-500 text-sm">Singh Constructions Pvt. Ltd.</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-4">
@@ -106,7 +106,7 @@ export default function AdminLogin() {
         </motion.div>
 
         <p className="text-center text-ink-400 text-xs mt-4">
-          Secure admin access · Khushbu Constructions Pvt. Ltd.
+          Secure admin access · Singh Constructions Pvt. Ltd.
         </p>
       </div>
     </div>

@@ -32,10 +32,10 @@ function Sidebar({ onClose }) {
       <div className="px-5 py-5 border-b border-slate-700">
         <Link to="/" className="flex items-center gap-3 group" onClick={onClose}>
           <div className="w-9 h-9 bg-brand-500 rounded-xl flex items-center justify-center shadow-brand group-hover:scale-105 transition-transform shrink-0">
-            <span className="text-white font-bold text-sm">KC</span>
+            <span className="text-white font-bold text-sm">S</span>
           </div>
           <div>
-            <p className="font-bold text-white text-sm leading-tight">Khushbu</p>
+            <p className="font-bold text-white text-sm leading-tight">S</p>
             <p className="text-slate-400 text-xs">Admin Panel</p>
           </div>
         </Link>
@@ -130,7 +130,7 @@ export default function AdminLayout() {
           </button>
 
           <div className="hidden md:flex items-center gap-2 text-sm text-ink-500">
-            <span className="font-medium text-ink-400">Khushbu Constructions</span>
+            <span className="font-medium text-ink-400">Singh Constructions</span>
             <FaChevronRight size={10} className="text-ink-300" />
             <span className="text-ink-700 font-semibold">Admin</span>
           </div>

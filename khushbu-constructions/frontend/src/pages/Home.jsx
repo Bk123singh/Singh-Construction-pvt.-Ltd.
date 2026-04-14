@@ -67,7 +67,7 @@ const whyUs = [
 ]
 
 const testimonials = [
-  { name: 'Ramesh Gupta', role: 'Home Owner', text: 'Exceptional quality and on-time delivery. Khushbu Constructions turned our dream home into reality.', rating: 5 },
+  { name: 'Ramesh Gupta', role: 'Home Owner', text: 'Exceptional quality and on-time delivery. Singh Constructions turned our dream home into reality.', rating: 5 },
   { name: 'Priya Mehta', role: 'Business Owner', text: 'Professional team, great communication, and outstanding results for our commercial project.', rating: 5 },
   { name: 'Anil Sharma', role: 'Property Developer', text: 'Trusted partner for all our construction needs. Consistent quality across multiple projects.', rating: 5 },
 ]
@@ -136,7 +136,7 @@ export default function Home() {
                 transition={{ delay: 0.3 }}
                 className="text-ink-500 text-lg leading-relaxed mb-8 max-w-lg"
               >
-                Khushbu Constructions delivers world-class residential and commercial projects
+                Singh Constructions delivers world-class residential and commercial projects
                 with uncompromising quality, precision, and care.
               </motion.p>
 
@@ -331,7 +331,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}>
               <span className="section-tag">Why Choose Us</span>
-              <h2 className="section-title mb-5">The Khushbu Difference</h2>
+              <h2 className="section-title mb-5">The Singh Construction Difference</h2>
               <p className="text-ink-500 mb-8 leading-relaxed">
                 With over 15 years of expertise, we combine traditional craftsmanship with modern
                 technology to deliver projects that stand the test of time.

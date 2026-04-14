@@ -45,10 +45,10 @@ export default function PublicLayout() {
           <div className="flex items-center justify-between h-16">
             <Link to="/" className="flex items-center gap-3 group shrink-0">
               <div className="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center shadow-brand group-hover:scale-105 transition-transform">
-                <span className="text-white font-bold text-sm">KC</span>
+                <span className="text-white font-bold text-sm">S</span>
               </div>
               <div className="hidden sm:block">
-                <p className="font-bold text-ink-900 text-sm leading-tight">Khushbu Constructions</p>
+                <p className="font-bold text-ink-900 text-sm leading-tight">Singh Constructions</p>
                 <p className="text-brand-500 text-xs font-semibold">Pvt. Ltd.</p>
               </div>
             </Link>
@@ -132,10 +132,13 @@ export default function PublicLayout() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 bg-brand-500 rounded-xl flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">KC</span>
+                  <span className="text-white font-bold text-sm">S
+
+
+                  </span>
                 </div>
                 <div>
-                  <p className="font-bold text-white text-sm">Khushbu Constructions</p>
+                  <p className="font-bold text-white text-sm">Singh Constructions</p>
                   <p className="text-brand-400 text-xs">Pvt. Ltd.</p>
                 </div>
               </div>
@@ -178,7 +181,7 @@ export default function PublicLayout() {
                 </div>
                 <div className="flex gap-3 items-center">
                   <FaEnvelope className="text-brand-400 shrink-0" size={12} />
-                  <a href="mailto:info@khushbuconstructions.com" className="text-slate-400 hover:text-brand-400 text-sm transition-colors">info@khushbuconstructions.com</a>
+                  <a href="singhconstruction729@gmail.com" className="text-slate-400 hover:text-brand-400 text-sm transition-colors">singhconstruction729@gmail.com.com</a>
                 </div>
               </div>
             </div>

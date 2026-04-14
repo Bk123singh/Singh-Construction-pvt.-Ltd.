@@ -45,7 +45,7 @@ export default function About() {
               <span className="section-tag">Who We Are</span>
               <h2 className="section-title mb-5">A Legacy of Construction Excellence</h2>
               <p className="text-ink-500 leading-relaxed mb-4">
-                {profile?.description || 'Khushbu Constructions Pvt. Ltd. was founded in 2009 with a powerful vision — to deliver construction projects that exceed expectations. Over 15 years, we\'ve grown from a local contractor to one of Rajasthan\'s most respected builders.'}
+                {profile?.description || 'Singh Constructions. was founded in 2009 with a powerful vision — to deliver construction projects that exceed expectations. Over 15 years, we\'ve grown from a local contractor to one of Rajasthan\'s most respected builders.'}
               </p>
               <p className="text-ink-500 leading-relaxed">
                 Our portfolio spans residential complexes, commercial towers, industrial facilities, and infrastructure projects — each a testament to our unwavering commitment to quality and timely delivery.
